@@ -74,7 +74,6 @@ const CommentAdd = React.memo(({ onCreate }) => {
         value={data.text}
         placeholder={t('common.writeComment')}
         minRows={isOpened ? 3 : 1}
-        spellCheck={false}
         className={styles.field}
         onFocus={handleFieldFocus}
         onKeyDown={handleFieldKeyDown}

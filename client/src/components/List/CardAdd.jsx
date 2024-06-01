@@ -96,7 +96,6 @@ const CardAdd = React.memo(({ isOpened, onCreate, onClose }) => {
           value={data.name}
           placeholder={t('common.enterCardTitle')}
           minRows={3}
-          spellCheck={false}
           className={styles.field}
           onKeyDown={handleFieldKeyDown}
           onChange={handleFieldChange}

@@ -59,7 +59,7 @@ const DescriptionEdit = React.forwardRef(({ children, defaultValue, onUpdate }, 
     () => ({
       autoDownloadFontAwesome: false,
       autofocus: true,
-      spellChecker: false,
+      spellChecker: true,
       status: false,
       toolbar: [
         'bold',
