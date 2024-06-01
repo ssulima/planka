@@ -96,7 +96,7 @@ const NameEdit = React.forwardRef(({ children, defaultValue, onUpdate }, ref) =>
           value={value}
           minRows={3}
           maxRows={8}
-          spellCheck={false}
+          spellCheck={true}
           className={styles.field}
           onKeyDown={handleFieldKeyDown}
           onChange={handleFieldChange}

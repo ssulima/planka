@@ -57,9 +57,9 @@ const DescriptionEdit = React.forwardRef(({ children, defaultValue, onUpdate }, 
 
   const mdEditorOptions = useMemo(
     () => ({
-      autoDownloadFontAwesome: false,
+      autoDownloadFontAwesome: true,
       autofocus: true,
-      spellChecker: false,
+      spellChecker: true,
       status: false,
       toolbar: [
         'bold',
